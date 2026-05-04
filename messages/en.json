@@ -1,0 +1,248 @@
+{
+  "nav": {
+    "services": "Services",
+    "why": "Why Nexora",
+    "process": "Process",
+    "vision": "Vision",
+    "portfolio": "Portfolio",
+    "contact": "Contact",
+    "getStarted": "Get Started",
+    "ai": "AI Actions"
+  },
+  "hero": {
+    "badge": "Next-Generation Software Systems",
+    "headline": "Build Scalable Digital Systems for Modern Businesses",
+    "subheadline": "Nexora develops scalable software systems for healthcare, real estate, elderly care, and modern businesses.",
+    "cta1": "Get Started",
+    "cta2": "Contact Us",
+    "stat1": "Projects Delivered",
+    "stat2": "Industries Served",
+    "stat3": "Client Satisfaction",
+    "stat4": "Years of Experience"
+  },
+  "services": {
+    "badge": "Core Services",
+    "title": "Tailored Systems for Every Industry",
+    "subtitle": "We build custom, scalable software that fits your exact business needs — from healthcare to real estate and beyond.",
+    "healthcare": {
+      "title": "Healthcare Systems",
+      "description": "Comprehensive digital solutions for clinics, hospitals, and wellness centers.",
+      "features": ["Clinic Management", "Appointment Scheduling", "Patient Tracking", "Staff Management", "Spa & Beauty Centers"]
+    },
+    "realestate": {
+      "title": "Real Estate Systems",
+      "description": "End-to-end platforms for property managers, agents, and real estate firms.",
+      "features": ["Property Management", "Client CRM", "Contracts & Listings", "Operations Dashboard", "Analytics & Reports"]
+    },
+    "elderly": {
+      "title": "Elderly Care Systems",
+      "description": "Intelligent care management platforms for senior care facilities.",
+      "features": ["Care Tracking", "Daily Reports", "Staff Scheduling", "Family Portals", "Monitoring Systems"]
+    },
+    "custom": {
+      "title": "Custom Business Software",
+      "description": "Bespoke digital systems engineered for your unique business operations.",
+      "features": ["CRM Systems", "Analytics Dashboards", "Internal Management", "Business Automation", "API Integrations"]
+    }
+  },
+  "why": {
+    "badge": "Why Choose Nexora",
+    "title": "Engineering Excellence Meets Business Intelligence",
+    "subtitle": "We don't just write code — we architect systems that scale with your business.",
+    "items": [
+      {
+        "title": "Scalable Architecture",
+        "description": "Built on modern, cloud-ready infrastructure that grows seamlessly with your business demands."
+      },
+      {
+        "title": "Clean Engineering",
+        "description": "Precision-crafted code with rigorous standards, ensuring maintainability and long-term reliability."
+      },
+      {
+        "title": "Business-Focused",
+        "description": "Every feature is driven by real operational needs, delivering measurable ROI and efficiency gains."
+      },
+      {
+        "title": "Enterprise-Grade Quality",
+        "description": "Production-proven solutions built to enterprise standards with security and compliance at the core."
+      },
+      {
+        "title": "AI-Ready Foundation",
+        "description": "Systems architected with future AI integration in mind, ready for intelligent automation upgrades."
+      },
+      {
+        "title": "Dedicated Partnership",
+        "description": "Long-term engagement beyond delivery — we evolve your systems as your business grows."
+      }
+    ]
+  },
+  "process": {
+    "badge": "Our Process",
+    "title": "From Idea to Production in 4 Steps",
+    "subtitle": "A streamlined, transparent process that keeps you informed and in control at every stage.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Discovery",
+        "description": "Deep-dive into your business, goals, and challenges to map out the perfect solution."
+      },
+      {
+        "number": "02",
+        "title": "Planning",
+        "description": "Detailed architecture design, tech stack selection, and project roadmap creation."
+      },
+      {
+        "number": "03",
+        "title": "Development",
+        "description": "Agile sprints with continuous delivery, testing, and client feedback integration."
+      },
+      {
+        "number": "04",
+        "title": "Deployment",
+        "description": "Seamless launch with monitoring, training, and ongoing support included."
+      }
+    ]
+  },
+  "vision": {
+    "badge": "Our Vision",
+    "title": "Building the Future of Business Software",
+    "subtitle": "Nexora is evolving from a custom software company into a global SaaS and AI-powered platform company.",
+    "stages": [
+      {
+        "stage": "Stage 1",
+        "title": "Software House",
+        "description": "Custom software delivery for businesses across key industries.",
+        "status": "current"
+      },
+      {
+        "stage": "Stage 2",
+        "title": "SaaS Products",
+        "description": "Launching industry-specific SaaS platforms for scalable growth.",
+        "status": "next"
+      },
+      {
+        "stage": "Stage 3",
+        "title": "AI Integration",
+        "description": "Embedding intelligent automation and smart analytics into every product.",
+        "status": "future"
+      },
+      {
+        "stage": "Stage 4",
+        "title": "Global Platform",
+        "description": "A unified AI-powered business platform serving enterprises worldwide.",
+        "status": "future"
+      }
+    ],
+    "features": [
+      "AI-Powered Automation",
+      "Smart Analytics Engine",
+      "Intelligent Business Tools",
+      "Scalable SaaS Platforms",
+      "Predictive Insights",
+      "Global Infrastructure"
+    ]
+  },
+  "portfolio": {
+    "badge": "Solutions",
+    "title": "Proven Systems Across Industries",
+    "subtitle": "A snapshot of the platforms and systems we build and deploy for our clients.",
+    "items": [
+      {
+        "category": "Healthcare",
+        "title": "ClinicOS Platform",
+        "description": "A complete clinic management system with patient records, appointments, billing, and staff scheduling — all in one unified platform.",
+        "tags": ["React", "Node.js", "PostgreSQL"]
+      },
+      {
+        "category": "Real Estate",
+        "title": "PropDesk Suite",
+        "description": "Full-stack property management platform with listing management, client CRM, contract generation, and performance analytics.",
+        "tags": ["Next.js", "TypeScript", "MongoDB"]
+      },
+      {
+        "category": "Elderly Care",
+        "title": "CareTrack System",
+        "description": "Smart care monitoring platform enabling staff to log daily activities, generate automated reports, and manage resident wellness.",
+        "tags": ["React Native", "Node.js", "MySQL"]
+      },
+      {
+        "category": "Business",
+        "title": "Nexora CRM",
+        "description": "Enterprise-grade CRM with custom pipeline management, automation workflows, team collaboration, and deep analytics dashboards.",
+        "tags": ["Next.js", "Prisma", "Redis"]
+      }
+    ]
+  },
+  "cta": {
+    "badge": "Ready to Build?",
+    "title": "Let's Transform Your Business with Smart Software",
+    "subtitle": "Tell us about your project and we'll design a system that drives real results. No fluff — just engineered solutions.",
+    "cta1": "Start Your Project",
+    "cta2": "Schedule a Call",
+    "feature1": "Free Consultation",
+    "feature2": "Custom Architecture",
+    "feature3": "Fast Delivery"
+  },
+  "footer": {
+    "description": "Building scalable digital systems for modern businesses. From healthcare to real estate — we engineer software that works.",
+    "services": "Services",
+    "company": "Company",
+    "contact": "Contact",
+    "links": {
+      "healthcare": "Healthcare Systems",
+      "realestate": "Real Estate Systems",
+      "elderly": "Elderly Care Systems",
+      "custom": "Custom Software",
+      "about": "About Us",
+      "process": "Our Process",
+      "vision": "Vision",
+      "careers": "Careers"
+    },
+    "contactInfo": {
+      "email": "mhammad.wahbeh@gmail.com",
+      "location": "Available Globally"
+    },
+    "copyright": "© 2026 Nexora. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  },
+  "ai": {
+    "badge": "AI-Powered Actions",
+    "title": "Intelligent Automation Built In",
+    "subtitle": "Nexora systems are engineered with AI-ready architecture — delivering smart automation, predictive analytics, and intelligent insights out of the box.",
+    "orbLabel": "Neural Intelligence Core",
+    "chip1": "Real-time Processing",
+    "chip2": "Smart Predictions",
+    "chip3": "Auto Learning",
+    "chip4": "99.9% Uptime",
+    "actions": [
+      {
+        "title": "AI Smart Automation",
+        "description": "Automate repetitive workflows with intelligent rules that learn from your business patterns and adapt over time."
+      },
+      {
+        "title": "Predictive Analytics",
+        "description": "Forecast trends, demand, and outcomes with ML models trained on your operational data."
+      },
+      {
+        "title": "AI Chat Assistant",
+        "description": "Embedded AI assistant that answers queries, generates reports, and guides staff through complex tasks."
+      },
+      {
+        "title": "Intelligent Processing",
+        "description": "AI-powered document parsing, data extraction, and classification — no manual entry required."
+      },
+      {
+        "title": "Smart Search & Insights",
+        "description": "Semantic search across your entire system with AI-generated summaries and actionable insights."
+      },
+      {
+        "title": "Workflow Orchestration",
+        "description": "Visual AI workflow builder that connects systems, triggers actions, and handles exceptions automatically."
+      }
+    ],
+    "ctaTitle": "Ready to add AI to your business systems?",
+    "ctaSubtitle": "We integrate intelligent automation into every solution we build.",
+    "ctaButton": "Explore AI Solutions"
+  }
+}
