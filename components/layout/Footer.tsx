@@ -146,7 +146,7 @@ export default function Footer({ locale }: FooterProps) {
               href="#contact"
               className="mt-6 inline-flex items-center justify-center h-9 px-5 text-xs font-semibold rounded-full bg-gradient-to-r from-[#1d4ed8] to-[#7f1d1d] text-white hover:brightness-110 transition-all duration-200"
             >
-              Start a Project
+              {t('cta')}
             </a>
           </div>
         </div>
