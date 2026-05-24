@@ -40,7 +40,7 @@ const itemCounts: Record<TabKey, number> = {
 };
 
 const itemLinks: Partial<Record<TabKey, (string | null)[]>> = {
-  sys: ['/nexora-care', '/nexora-evaluation'],
+  sys: ['https://nexora-care.vercel.app', null],
 };
 
 type TKey = Parameters<ReturnType<typeof useTranslations<'services'>>>[0];
