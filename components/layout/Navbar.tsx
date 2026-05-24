@@ -34,10 +34,10 @@ export default function Navbar({ locale }: NavbarProps) {
 
   const navLinks = [
     { label: t('services'), href: '#services' },
-    { label: t('why'), href: '#why' },
-    { label: t('ai'), href: '#ai' },
-    { label: t('vision'), href: '#vision' },
-    { label: t('portfolio'), href: '#portfolio' },
+{ label: t('why'), href: '#why' },
+    { label: t('process'), href: '#process' },
+    { label: t('results'), href: '#results' },
+    { label: t('contact'), href: '#contact' },
   ];
 
   return (

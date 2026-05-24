@@ -13,17 +13,16 @@ export default function Footer({ locale }: FooterProps) {
   const isRTL = locale === 'ar';
 
   const serviceLinks = [
-    { key: 'healthcare', href: '#services' },
-    { key: 'realestate', href: '#services' },
-    { key: 'elderly', href: '#services' },
-    { key: 'custom', href: '#services' },
+    { key: 'web', href: '#services' },
+    { key: 'systems', href: '#services' },
+    { key: 'automation', href: '#services' },
+    { key: 'infra', href: '#services' },
   ] as const;
 
   const companyLinks = [
-    { key: 'about', href: '#why' },
+    { key: 'about', href: '#about' },
     { key: 'process', href: '#process' },
-    { key: 'vision', href: '#vision' },
-    { key: 'careers', href: '#contact' },
+    { key: 'results', href: '#results' },
   ] as const;
 
   return (
@@ -116,7 +115,7 @@ export default function Footer({ locale }: FooterProps) {
               <li className="flex items-start gap-2.5">
                 <Mail size={14} className="text-[#1d4ed8] shrink-0 mt-0.5" />
                 <a
-                  href="mailto:mhammad.wahbeh@gmail.com"
+                  href="mailto:nexoracoapps@gmail.com"
                   className="text-sm text-[#64748b] hover:text-[#3b82f6] transition-colors"
                 >
                   {t('contactInfo.email')}

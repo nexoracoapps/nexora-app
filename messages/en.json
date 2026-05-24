@@ -1,249 +1,284 @@
 {
   "nav": {
     "services": "Services",
+    "pricing": "Pricing",
     "why": "Why Nexora",
     "process": "Process",
-    "vision": "Vision",
-    "portfolio": "Portfolio",
+    "results": "Results",
     "contact": "Contact",
-    "getStarted": "Get Started",
-    "ai": "AI Actions"
+    "getStarted": "Free Consultation"
   },
   "hero": {
-    "badge": "Next-Generation Software Systems",
-    "headline": "Build Scalable Digital Systems for Modern Businesses",
-    "subheadline": "Nexora develops scalable software systems for healthcare, real estate, elderly care, and modern businesses.",
-    "cta1": "Get Started",
-    "cta2": "Contact Us",
-    "stat1": "Projects Delivered",
-    "stat2": "Industries Served",
-    "stat3": "Client Satisfaction",
-    "stat4": "Years of Experience"
+    "badge": "Digital Systems & Business Automation",
+    "headline": "From digital presence to complete business systems",
+    "subheadline": "Nexora delivers modern digital infrastructure that streamlines operations, enhances customer experience, and drives scalable growth.",
+    "cta1": "Get a Free Consultation",
+    "cta2": "View Our Services",
+    "stat1": "Expert Team",
+    "stat2": "Premium Quality",
+    "stat3": "Trusted Partner"
+  },
+  "about": {
+    "badge": "About Nexora",
+    "title": "We Build Systems, Not Just Websites",
+    "subtitle": "Nexora is a Digital Systems & Business Automation company. We help businesses organize, automate, and scale — turning operations into streamlined digital machines.",
+    "p0title": "Business-First Thinking",
+    "p0desc": "Every solution starts with your business goals, not technology. We design systems that drive revenue and reduce friction.",
+    "p1title": "Automation at the Core",
+    "p1desc": "WhatsApp, SMS, email, and AI workflows built into every system — so your business runs even when you sleep.",
+    "p2title": "Built to Scale",
+    "p2desc": "From day-one clinic to multi-branch operation. Our systems grow with you without needing a rebuild.",
+    "q0": "Experienced Team",
+    "q1": "Professional Delivery",
+    "q2": "End-to-End Support"
   },
   "services": {
-    "badge": "Core Services",
-    "title": "Tailored Systems for Every Industry",
-    "subtitle": "We build custom, scalable software that fits your exact business needs — from healthcare to real estate and beyond.",
-    "healthcare": {
-      "title": "Healthcare Systems",
-      "description": "Comprehensive digital solutions for clinics, hospitals, and wellness centers.",
-      "features": ["Clinic Management", "Appointment Scheduling", "Patient Tracking", "Staff Management", "Spa & Beauty Centers"]
-    },
-    "realestate": {
-      "title": "Real Estate Systems",
-      "description": "End-to-end platforms for property managers, agents, and real estate firms.",
-      "features": ["Property Management", "Client CRM", "Contracts & Listings", "Operations Dashboard", "Analytics & Reports"]
-    },
-    "elderly": {
-      "title": "Elderly Care Systems",
-      "description": "Intelligent care management platforms for senior care facilities.",
-      "features": ["Care Tracking", "Daily Reports", "Staff Scheduling", "Family Portals", "Monitoring Systems"]
-    },
-    "custom": {
-      "title": "Custom Business Software",
-      "description": "Bespoke digital systems engineered for your unique business operations.",
-      "features": ["CRM Systems", "Analytics Dashboards", "Internal Management", "Business Automation", "API Integrations"]
-    }
+    "badge": "Our Services",
+    "title": "Everything Your Business Needs to Operate Digitally",
+    "subtitle": "Four pillars of digital excellence — covering every layer from design to automation.",
+    "tabWeb": "Web & Digital",
+    "tabSystems": "Business Systems",
+    "tabAutomation": "Automation",
+    "tabInfra": "Infrastructure",
+    "webTitle": "Web & Digital Solutions",
+    "webDesc": "High-converting websites and digital identities that turn visitors into clients.",
+    "webItem0Title": "Landing Pages",
+    "webItem0Desc": "Conversion-optimized pages built to generate leads and close sales. Fast-loading and designed to convert.",
+    "webItem0Benefit": "Up to 3× more conversions",
+    "webItem1Title": "Business Websites",
+    "webItem1Desc": "Professional websites that establish authority, build trust, and showcase your services at their best.",
+    "webItem1Benefit": "24/7 online presence",
+    "webItem2Title": "Branding & Identity",
+    "webItem2Desc": "Logo, brand palette, typography, and guidelines that make your business look like a market leader.",
+    "webItem2Benefit": "Stand out from competition",
+    "webItem3Title": "UI/UX Design",
+    "webItem3Desc": "User-centered interfaces designed to delight your customers and keep them coming back.",
+    "webItem3Benefit": "Higher engagement & retention",
+    "sysTitle": "Business Systems",
+    "sysDesc": "Complete digital operating systems for your industry. Replace paperwork and spreadsheets with a unified platform.",
+    "sysItem0Title": "Nexora Care",
+    "sysItem0Desc": "A comprehensive care management platform — patient records, treatment histories, follow-ups, and wellness tracking built for healthcare professionals.",
+    "sysItem0Benefit": "Exceptional client care",
+    "sysItem1Title": "Nexora Evaluation",
+    "sysItem1Desc": "A complete accreditation management system — streamline evaluation processes, track compliance standards, manage assessments, and generate accreditation reports with full audit trails.",
+    "sysItem1Benefit": "Accreditation made seamless",
+    "autoTitle": "Automation Systems",
+    "autoDesc": "Put customer communication and follow-up on autopilot. Reach the right people at the right time — automatically.",
+    "autoItem0Title": "WhatsApp Automation",
+    "autoItem0Desc": "Automated appointment confirmations, reminders, follow-ups, and broadcasts — all via WhatsApp.",
+    "autoItem0Benefit": "10× faster response time",
+    "autoItem1Title": "SMS & Email Campaigns",
+    "autoItem1Desc": "Targeted campaigns, drip sequences, and newsletters that nurture leads and re-engage past clients.",
+    "autoItem1Benefit": "Higher open & conversion rates",
+    "autoItem2Title": "Customer Journeys",
+    "autoItem2Desc": "End-to-end automated workflows that guide every customer from first contact to loyal client.",
+    "autoItem2Benefit": "Consistent client experience",
+    "infraTitle": "Infrastructure Services",
+    "infraDesc": "Reliable, secure, and maintained infrastructure so your business is always online and protected.",
+    "infraItem0Title": "Hosting & Deployment",
+    "infraItem0Desc": "Fast, reliable cloud hosting with 99.9% uptime SLA. We handle server setup, deployment, and scaling.",
+    "infraItem0Benefit": "99.9% uptime guaranteed",
+    "infraItem1Title": "SSL & Security",
+    "infraItem1Desc": "SSL certificates, security hardening, and regular vulnerability scans to keep your data safe.",
+    "infraItem1Benefit": "Full site security coverage",
+    "infraItem2Title": "Maintenance Plans",
+    "infraItem2Desc": "Monthly updates, bug fixes, performance monitoring, and content changes so your system stays sharp.",
+    "infraItem2Benefit": "Zero technical headaches",
+    "infraItem3Title": "Monitoring & Support",
+    "infraItem3Desc": "24/7 uptime monitoring with instant alerts and fast response times. Know about issues before your clients do.",
+    "infraItem3Benefit": "Issues caught in minutes"
+  },
+  "pricing": {
+    "badge": "Pricing",
+    "title": "Transparent, Value-Based Pricing",
+    "subtitle": "No hidden fees. No surprises. Every project is custom-quoted — these ranges give you a clear starting point.",
+    "note": "All prices in Jordanian Dinar (JD). Final quote based on scope.",
+    "cta": "Get a Custom Quote",
+    "lpTitle": "Landing Pages",
+    "lp0Name": "Basic",
+    "lp0Range": "150 – 300 JD",
+    "lp0Desc": "Single-page site for a specific offer or campaign.",
+    "lp0F0": "1 Landing Page",
+    "lp0F1": "Mobile Responsive",
+    "lp0F2": "Lead Capture Form",
+    "lp0F3": "Basic SEO",
+    "lp0F4": "Delivery: 3–5 days",
+    "lp1Name": "Professional",
+    "lp1Range": "400 – 900 JD",
+    "lp1Desc": "Multi-section site designed for maximum trust and conversions.",
+    "lp1F0": "Multi-section Design",
+    "lp1F1": "Custom Branding",
+    "lp1F2": "WhatsApp Integration",
+    "lp1F3": "Google Analytics",
+    "lp1F4": "Delivery: 7–14 days",
+    "lp2Name": "Conversion",
+    "lp2Range": "1,000 – 2,500 JD",
+    "lp2Desc": "Full conversion system with A/B testing and automation.",
+    "lp2F0": "Full Design System",
+    "lp2F1": "A/B Testing Setup",
+    "lp2F2": "CRM Integration",
+    "lp2F3": "Email Automation",
+    "lp2F4": "Delivery: 14–21 days",
+    "sysTitle": "Business Systems",
+    "sys0Name": "Simple",
+    "sys0Range": "1,200 – 3,000 JD",
+    "sys0Desc": "Core business system for small operations.",
+    "sys0F0": "Core Module",
+    "sys0F1": "Admin Dashboard",
+    "sys0F2": "Basic Reports",
+    "sys0F3": "Staff Accounts",
+    "sys0F4": "Delivery: 3–5 weeks",
+    "sys1Name": "Professional",
+    "sys1Range": "3,000 – 8,000 JD",
+    "sys1Desc": "Full-featured system for growing businesses.",
+    "sys1F0": "Multiple Modules",
+    "sys1F1": "Custom Workflows",
+    "sys1F2": "WhatsApp Automation",
+    "sys1F3": "Advanced Reports",
+    "sys1F4": "Delivery: 6–10 weeks",
+    "sys2Name": "Enterprise",
+    "sys2Range": "8,000 – 25,000+ JD",
+    "sys2Desc": "Complex multi-branch or multi-role systems.",
+    "sys2F0": "Enterprise Architecture",
+    "sys2F1": "API Integrations",
+    "sys2F2": "Multi-branch Support",
+    "sys2F3": "Dedicated Support",
+    "sys2F4": "Timeline: Custom"
   },
   "why": {
-    "badge": "Why Choose Nexora",
-    "title": "Engineering Excellence Meets Business Intelligence",
-    "subtitle": "We don't just write code — we architect systems that scale with your business.",
+    "badge": "Why Nexora",
+    "title": "Business Results, Not Just Code",
+    "subtitle": "We're not a coding agency. We're a business automation partner that happens to build world-class software.",
     "items": [
       {
-        "title": "Scalable Architecture",
-        "description": "Built on modern, cloud-ready infrastructure that grows seamlessly with your business demands."
+        "title": "Business-Focused Solutions",
+        "description": "Every feature exists to generate revenue, reduce cost, or save time. We measure success by your business growth."
       },
       {
-        "title": "Clean Engineering",
-        "description": "Precision-crafted code with rigorous standards, ensuring maintainability and long-term reliability."
+        "title": "Automation Expertise",
+        "description": "WhatsApp, SMS, email, and AI — we embed automation into everything we build so your business runs on autopilot."
       },
       {
-        "title": "Business-Focused",
-        "description": "Every feature is driven by real operational needs, delivering measurable ROI and efficiency gains."
+        "title": "Scalable Systems",
+        "description": "Built from day one to handle 10× growth. No rewrites, no bottlenecks — just seamless scaling as you grow."
       },
       {
-        "title": "Enterprise-Grade Quality",
-        "description": "Production-proven solutions built to enterprise standards with security and compliance at the core."
+        "title": "Conversion-Focused Design",
+        "description": "Apple-level design standards applied to every interface. Beautiful systems that your clients trust and love to use."
       },
       {
-        "title": "AI-Ready Foundation",
-        "description": "Systems architected with future AI integration in mind, ready for intelligent automation upgrades."
+        "title": "Long-Term Support",
+        "description": "We don't disappear after launch. Monthly maintenance plans ensure your systems evolve with your business."
       },
       {
-        "title": "Dedicated Partnership",
-        "description": "Long-term engagement beyond delivery — we evolve your systems as your business grows."
+        "title": "Full-Stack Delivery",
+        "description": "Design, development, hosting, automation, and support — all under one roof. One team, full accountability."
       }
     ]
   },
   "process": {
     "badge": "Our Process",
-    "title": "From Idea to Production in 4 Steps",
-    "subtitle": "A streamlined, transparent process that keeps you informed and in control at every stage.",
+    "title": "How We Build Your System",
+    "subtitle": "A proven 4-step process that delivers results on time, every time.",
     "steps": [
       {
         "number": "01",
-        "title": "Discovery",
-        "description": "Deep-dive into your business, goals, and challenges to map out the perfect solution."
+        "title": "Consultation",
+        "description": "Free discovery session to understand your business, goals, and challenges. We map your ideal system together."
       },
       {
         "number": "02",
-        "title": "Planning",
-        "description": "Detailed architecture design, tech stack selection, and project roadmap creation."
+        "title": "System Design",
+        "description": "We design your complete digital system — wireframes, user flows, automation logic, and tech architecture."
       },
       {
         "number": "03",
         "title": "Development",
-        "description": "Agile sprints with continuous delivery, testing, and client feedback integration."
+        "description": "Agile build sprints with regular check-ins. You see progress weekly and give feedback before final delivery."
       },
       {
         "number": "04",
-        "title": "Deployment",
-        "description": "Seamless launch with monitoring, training, and ongoing support included."
+        "title": "Deployment & Support",
+        "description": "We launch, train your team, and stay on for ongoing support. Your system keeps improving over time."
       }
     ]
   },
-  "vision": {
-    "badge": "Our Vision",
-    "title": "Building the Future of Business Software",
-    "subtitle": "Nexora is evolving from a custom software company into a global SaaS and AI-powered platform company.",
-    "stages": [
-      {
-        "stage": "Stage 1",
-        "title": "Software House",
-        "description": "Custom software delivery for businesses across key industries.",
-        "status": "current"
-      },
-      {
-        "stage": "Stage 2",
-        "title": "SaaS Products",
-        "description": "Launching industry-specific SaaS platforms for scalable growth.",
-        "status": "next"
-      },
-      {
-        "stage": "Stage 3",
-        "title": "AI Integration",
-        "description": "Embedding intelligent automation and smart analytics into every product.",
-        "status": "future"
-      },
-      {
-        "stage": "Stage 4",
-        "title": "Global Platform",
-        "description": "A unified AI-powered business platform serving enterprises worldwide.",
-        "status": "future"
-      }
-    ],
-    "features": [
-      "AI-Powered Automation",
-      "Smart Analytics Engine",
-      "Intelligent Business Tools",
-      "Scalable SaaS Platforms",
-      "Predictive Insights",
-      "Global Infrastructure"
-    ]
+  "results": {
+    "badge": "Results",
+    "title": "Real Businesses. Real Results.",
+    "subtitle": "What happens when you give a business the right systems and automation.",
+    "stat0Value": "40%",
+    "stat0Label": "Avg. increase in bookings",
+    "stat1Value": "60%",
+    "stat1Label": "Reduction in admin work",
+    "stat2Value": "10×",
+    "stat2Label": "Faster customer response",
+    "stat3Value": "3×",
+    "stat3Label": "More leads converted",
+    "case0Cat": "Healthcare",
+    "case0Title": "Clinic increased bookings by 40%",
+    "case0Desc": "A multi-doctor clinic replaced manual scheduling with our booking system + WhatsApp automation. New patients book online 24/7. Reminders cut no-shows by 60%.",
+    "case0M0": "40% more bookings",
+    "case0M1": "60% fewer no-shows",
+    "case0M2": "2 staff hours saved daily",
+    "case1Cat": "Operations",
+    "case1Title": "Admin workload reduced by 60%",
+    "case1Desc": "A spa chain replaced 3 spreadsheets and WhatsApp chaos with our unified management system. Reports that took 2 hours now generate automatically.",
+    "case1M0": "60% less admin time",
+    "case1M1": "Automated daily reports",
+    "case1M2": "Real-time staff scheduling",
+    "case2Cat": "Automation",
+    "case2Title": "10× faster customer response via automation",
+    "case2Desc": "A service business set up WhatsApp automation for lead follow-up. Every new inquiry gets an instant response, qualification, and booking — 24/7.",
+    "case2M0": "<2 min response time",
+    "case2M1": "80% inquiries auto-handled",
+    "case2M2": "30% more conversions"
   },
-  "portfolio": {
-    "badge": "Solutions",
-    "title": "Proven Systems Across Industries",
-    "subtitle": "A snapshot of the platforms and systems we build and deploy for our clients.",
-    "items": [
-      {
-        "category": "Healthcare",
-        "title": "ClinicOS Platform",
-        "description": "A complete clinic management system with patient records, appointments, billing, and staff scheduling — all in one unified platform.",
-        "tags": ["React", "Node.js", "PostgreSQL"]
-      },
-      {
-        "category": "Real Estate",
-        "title": "PropDesk Suite",
-        "description": "Full-stack property management platform with listing management, client CRM, contract generation, and performance analytics.",
-        "tags": ["Next.js", "TypeScript", "MongoDB"]
-      },
-      {
-        "category": "Elderly Care",
-        "title": "CareTrack System",
-        "description": "Smart care monitoring platform enabling staff to log daily activities, generate automated reports, and manage resident wellness.",
-        "tags": ["React Native", "Node.js", "MySQL"]
-      },
-      {
-        "category": "Business",
-        "title": "Nexora CRM",
-        "description": "Enterprise-grade CRM with custom pipeline management, automation workflows, team collaboration, and deep analytics dashboards.",
-        "tags": ["Next.js", "Prisma", "Redis"]
-      }
-    ]
-  },
-  "cta": {
-    "badge": "Ready to Build?",
-    "title": "Let's Transform Your Business with Smart Software",
-    "subtitle": "Tell us about your project and we'll design a system that drives real results. No fluff — just engineered solutions.",
-    "cta1": "Start Your Project",
-    "cta2": "Schedule a Call",
-    "feature1": "Free Consultation",
-    "feature2": "Custom Architecture",
-    "feature3": "Fast Delivery"
+  "contact": {
+    "badge": "Let's Build Together",
+    "title": "Let's Build Your System",
+    "subtitle": "Tell us about your business and we'll design a system that drives real results. Free consultation, no pressure.",
+    "whatsapp": "Chat on WhatsApp",
+    "whatsappSub": "Fastest response — usually within minutes",
+    "formTitle": "Send us a message",
+    "nameLabel": "Your Name",
+    "businessLabel": "Business Type",
+    "serviceLabel": "Service Interested In",
+    "messageLabel": "Tell us about your project",
+    "submitLabel": "Send Message",
+    "s0": "Landing Page",
+    "s1": "Business Website",
+    "s2": "Clinic / Spa System",
+    "s3": "CRM System",
+    "s4": "WhatsApp Automation",
+    "s5": "Full Business System",
+    "s6": "Other",
+    "guarantee": "Free consultation. No commitment required.",
+    "emailLabel": "Email us",
+    "phoneLabel": "WhatsApp / Call"
   },
   "footer": {
-    "description": "Building scalable digital systems for modern businesses. From healthcare to real estate — we engineer software that works.",
+    "description": "We build business systems that automate operations, generate leads, and scale revenue. Digital infrastructure for ambitious businesses.",
     "services": "Services",
     "company": "Company",
     "contact": "Contact",
     "links": {
-      "healthcare": "Healthcare Systems",
-      "realestate": "Real Estate Systems",
-      "elderly": "Elderly Care Systems",
-      "custom": "Custom Software",
+      "web": "Web & Digital",
+      "systems": "Business Systems",
+      "automation": "Automation",
+      "infra": "Infrastructure",
       "about": "About Us",
       "process": "Our Process",
-      "vision": "Vision",
-      "careers": "Careers"
+      "pricing": "Pricing",
+      "results": "Results"
     },
     "contactInfo": {
-      "email": "mhammad.wahbeh@gmail.com",
-      "location": "Available Globally"
+      "email": "nexoracoapps@gmail.com",
+      "location": "Serving businesses in Jordan & beyond"
     },
-    "cta": "Start a Project",
+    "cta": "Free Consultation",
     "copyright": "© 2026 Nexora. All rights reserved.",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service"
-  },
-  "ai": {
-    "badge": "AI-Powered Actions",
-    "title": "Intelligent Automation Built In",
-    "subtitle": "Nexora systems are engineered with AI-ready architecture — delivering smart automation, predictive analytics, and intelligent insights out of the box.",
-    "orbLabel": "Neural Intelligence Core",
-    "chip1": "Real-time Processing",
-    "chip2": "Smart Predictions",
-    "chip3": "Auto Learning",
-    "chip4": "99.9% Uptime",
-    "actions": [
-      {
-        "title": "AI Smart Automation",
-        "description": "Automate repetitive workflows with intelligent rules that learn from your business patterns and adapt over time."
-      },
-      {
-        "title": "Predictive Analytics",
-        "description": "Forecast trends, demand, and outcomes with ML models trained on your operational data."
-      },
-      {
-        "title": "AI Chat Assistant",
-        "description": "Embedded AI assistant that answers queries, generates reports, and guides staff through complex tasks."
-      },
-      {
-        "title": "Intelligent Processing",
-        "description": "AI-powered document parsing, data extraction, and classification — no manual entry required."
-      },
-      {
-        "title": "Smart Search & Insights",
-        "description": "Semantic search across your entire system with AI-generated summaries and actionable insights."
-      },
-      {
-        "title": "Workflow Orchestration",
-        "description": "Visual AI workflow builder that connects systems, triggers actions, and handles exceptions automatically."
-      }
-    ],
-    "ctaTitle": "Ready to add AI to your business systems?",
-    "ctaSubtitle": "We integrate intelligent automation into every solution we build.",
-    "ctaButton": "Explore AI Solutions"
   }
 }

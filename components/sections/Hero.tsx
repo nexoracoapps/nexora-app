@@ -20,10 +20,9 @@ const fadeUp = {
 };
 
 const stats = [
-  { key: 'stat1', value: '50+' },
-  { key: 'stat2', value: '4' },
-  { key: 'stat3', value: '98%' },
-  { key: 'stat4', value: '5+' },
+  { key: 'stat1', value: 'Expert' },
+  { key: 'stat2', value: 'Premium' },
+  { key: 'stat3', value: 'Trusted' },
 ];
 
 export default function Hero() {
@@ -143,7 +142,7 @@ export default function Hero() {
           variants={fadeUp}
           initial="hidden"
           animate="show"
-          className="grid grid-cols-2 md:grid-cols-4 gap-px max-w-3xl mx-auto rounded-2xl overflow-hidden border border-white/8 bg-white/5"
+          className="grid grid-cols-3 gap-px max-w-2xl mx-auto rounded-2xl overflow-hidden border border-white/8 bg-white/5"
         >
           {stats.map((stat, i) => (
             <div
