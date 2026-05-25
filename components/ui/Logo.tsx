@@ -19,7 +19,7 @@ export default function Logo({ size = 'md', variant = 'full' }: LogoProps) {
       <svg
         width={s.icon}
         height={s.icon}
-        viewBox="0 0 48 48"
+        viewBox="-6 -6 60 60"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         aria-hidden="true"
