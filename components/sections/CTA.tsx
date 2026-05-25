@@ -19,7 +19,7 @@ export default function CTA() {
     const text = encodeURIComponent(
       `Hi Nexora! 👋\n\nName: ${form.name}\nBusiness: ${form.business}\n\n${form.message}`
     );
-    window.open(`https://wa.me/00962790891028?text=${text}`, '_blank');
+    window.open(`https://wa.me/962790891028?text=${text}`, '_blank');
     setSent(true);
     setTimeout(() => setSent(false), 4000);
   };
@@ -69,7 +69,7 @@ export default function CTA() {
           >
             {/* WhatsApp CTA — primary */}
             <a
-              href="https://wa.me/00962790891028"
+              href="https://wa.me/962790891028"
               target="_blank"
               rel="noopener noreferrer"
               className="group flex items-center gap-4 p-5 rounded-2xl border border-[#22c55e]/30 bg-[#16a34a]/8 hover:bg-[#16a34a]/14 hover:border-[#22c55e]/50 transition-all duration-200 mb-6"
@@ -117,7 +117,7 @@ export default function CTA() {
                 </div>
               </a>
               <a
-                href="https://wa.me/00962790891028"
+                href="https://wa.me/962790891028"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 p-4 rounded-xl border border-white/6 bg-white/3 hover:bg-white/6 hover:border-white/10 transition-all duration-150 group"

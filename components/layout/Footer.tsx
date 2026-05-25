@@ -130,7 +130,7 @@ export default function Footer({ locale }: FooterProps) {
               <li className="flex items-start gap-2.5">
                 <Phone size={14} className="text-[#22c55e] shrink-0 mt-0.5" />
                 <a
-                  href="https://wa.me/00962790891028"
+                  href="https://wa.me/962790891028"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-sm text-[#64748b] hover:text-[#22c55e] transition-colors"
