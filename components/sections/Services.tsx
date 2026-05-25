@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import { useLocale } from 'next-intl';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useTranslations } from 'next-intl';
 import {
@@ -39,15 +40,18 @@ const itemCounts: Record<TabKey, number> = {
   web: 4, sys: 2, auto: 3, infra: 4,
 };
 
-const itemLinks: Partial<Record<TabKey, (string | null)[]>> = {
-  sys: ['https://nexora-care.vercel.app', null],
-};
+const CARE_BASE = 'https://nexora-care.vercel.app';
 
 type TKey = Parameters<ReturnType<typeof useTranslations<'services'>>>[0];
 
 export default function Services() {
   const t = useTranslations('services');
+  const locale = useLocale();
   const [activeTab, setActiveTab] = useState<TabKey>('web');
+
+  const itemLinks: Partial<Record<TabKey, (string | null)[]>> = {
+    sys: [`${CARE_BASE}?lang=${locale}`, null],
+  };
 
   const style = tabStyle[activeTab];
   const icons = itemIcons[activeTab];
@@ -178,6 +182,8 @@ export default function Services() {
                   <motion.a
                     key={i}
                     href={link}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     initial={{ opacity: 0, y: 24 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: i * 0.07, duration: 0.45, ease: 'easeOut' }}
