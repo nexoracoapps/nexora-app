@@ -2,10 +2,10 @@
 
 import { motion } from 'framer-motion';
 import { useTranslations } from 'next-intl';
-import { Search, Map, Code, Rocket } from 'lucide-react';
+import { Phone, Compass, Code2, Rocket } from 'lucide-react';
 import SectionBadge from '@/components/ui/SectionBadge';
 
-const stepIcons = [Search, Map, Code, Rocket];
+const stepIcons = [Phone, Compass, Code2, Rocket];
 const stepColors = [
   { num: 'text-[#3b82f6]', bg: 'bg-[#1d4ed8]/15 border-[#1d4ed8]/30', connector: '#1d4ed8' },
   { num: 'text-[#f87171]', bg: 'bg-[#7f1d1d]/15 border-[#7f1d1d]/30', connector: '#7f1d1d' },

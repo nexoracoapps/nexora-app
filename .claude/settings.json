@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(docker compose ps *)",
+      "Bash(docker compose ps)",
+      "Bash(docker compose logs *)",
+      "Bash(docker-compose logs *)",
+      "Bash(curl -s -o /dev/null *)",
+      "Bash(git -C \"C:\\\\Users\\\\mhamm\\\\Desktop\\\\Nexora\\\\project-delivery\\\\projects\\\\nexora-care\" status)",
+      "Bash(git -C \"C:\\\\Users\\\\mhamm\\\\Desktop\\\\Nexora\\\\project-delivery\\\\projects\\\\nexora-app\" remote -v)",
+      "Bash(git -C \"C:\\\\Users\\\\mhamm\\\\Desktop\\\\Nexora\\\\project-delivery\\\\projects\\\\nexora-app\" status)",
+      "Bash(git -C \"C:\\\\Users\\\\mhamm\\\\Desktop\\\\Nexora\\\\project-delivery\\\\projects\\\\nexora-app\" add .gitignore \"app/[locale]/page.tsx\" components/layout/Footer.tsx components/layout/Navbar.tsx components/sections/CTA.tsx components/sections/Hero.tsx components/sections/Services.tsx components/sections/About.tsx components/sections/Results.tsx messages/ar.json messages/en.json)",
+      "Bash(git -C 'C:\\\\Users\\\\mhamm\\\\Desktop\\\\Nexora\\\\project-delivery\\\\projects\\\\nexora-app' commit -m ' *)",
+      "Bash(git -C \"C:\\\\Users\\\\mhamm\\\\Desktop\\\\Nexora\\\\project-delivery\\\\projects\\\\nexora-app\" push origin main)",
+      "Bash(gh --version)"
+    ],
+    "additionalDirectories": [
+      "C:\\Users\\mhamm\\Desktop\\Nexora\\project-delivery\\projects\\nexora-care\\prisma",
+      "C:\\Users\\mhamm\\Desktop\\Nexora\\project-delivery\\projects\\nexora-care"
+    ]
+  }
+}

@@ -2,10 +2,10 @@
 
 import { motion } from 'framer-motion';
 import { useTranslations } from 'next-intl';
-import { Layers, Code2, Target, Shield, Cpu, Handshake } from 'lucide-react';
+import { BarChart2, Zap, TrendingUp, Sparkles, Handshake, Package } from 'lucide-react';
 import SectionBadge from '@/components/ui/SectionBadge';
 
-const icons = [Layers, Code2, Target, Shield, Cpu, Handshake];
+const icons = [BarChart2, Zap, TrendingUp, Sparkles, Handshake, Package];
 
 const cardColors = [
   { border: 'border-[#1d4ed8]/30', icon: 'bg-[#1d4ed8]/15 text-[#3b82f6]', glow: '#1d4ed8' },
