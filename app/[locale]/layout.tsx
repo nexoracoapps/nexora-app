@@ -26,9 +26,9 @@ export const metadata: Metadata = {
   keywords: ['software company', 'custom software', 'healthcare systems', 'business automation', 'SaaS', 'digital transformation'],
   manifest: '/manifest.json',
   icons: {
-    icon: [{ url: '/nexora-logo.svg', type: 'image/svg+xml' }],
-    apple: [{ url: '/nexora-logo.svg', type: 'image/svg+xml' }],
-    shortcut: '/nexora-logo.svg',
+    icon: [{ url: '/icon.svg', type: 'image/svg+xml' }],
+    apple: [{ url: '/icon.svg', type: 'image/svg+xml' }],
+    shortcut: '/icon.svg',
   },
   openGraph: {
     title: 'Nexora — Connected Innovation',
