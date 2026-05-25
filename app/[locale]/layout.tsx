@@ -20,14 +20,25 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: 'Nexora — Scalable Digital Systems for Modern Businesses',
+  title: 'Nexora — Connected Innovation',
   description:
-    'Nexora builds scalable software systems for healthcare, real estate, elderly care, and modern businesses. Enterprise-grade custom solutions.',
-  keywords: ['software company', 'custom software', 'healthcare systems', 'real estate software', 'SaaS', 'digital transformation'],
+    'Nexora builds modern digital infrastructure that streamlines operations, enhances customer experience, and drives scalable growth.',
+  keywords: ['software company', 'custom software', 'healthcare systems', 'business automation', 'SaaS', 'digital transformation'],
+  manifest: '/manifest.json',
+  icons: {
+    icon: [{ url: '/nexora-logo.svg', type: 'image/svg+xml' }],
+    apple: [{ url: '/nexora-logo.svg', type: 'image/svg+xml' }],
+    shortcut: '/nexora-logo.svg',
+  },
   openGraph: {
-    title: 'Nexora — Scalable Digital Systems',
-    description: 'We engineer scalable digital systems for modern businesses.',
+    title: 'Nexora — Connected Innovation',
+    description: 'Modern digital infrastructure for ambitious businesses.',
     type: 'website',
+  },
+  appleWebApp: {
+    capable: true,
+    title: 'Nexora',
+    statusBarStyle: 'black-translucent',
   },
 };
 
