@@ -40,7 +40,7 @@ const itemCounts: Record<TabKey, number> = {
   web: 4, sys: 2, auto: 3, infra: 4,
 };
 
-const CARE_BASE = 'https://nexora-care.vercel.app';
+const CARE_BASE = 'https://nexora-care-nu.vercel.app';
 
 type TKey = Parameters<ReturnType<typeof useTranslations<'services'>>>[0];
 
