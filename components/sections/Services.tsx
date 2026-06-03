@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useLocale } from 'next-intl';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useTranslations } from 'next-intl';
@@ -40,7 +40,7 @@ const itemCounts: Record<TabKey, number> = {
   web: 4, sys: 2, auto: 3, infra: 4,
 };
 
-const CARE_BASE = 'https://nexora-care-nu.vercel.app';
+const CARE_BASE = 'https://nexora-care.vercel.app';
 
 type TKey = Parameters<ReturnType<typeof useTranslations<'services'>>>[0];
 
@@ -48,6 +48,16 @@ export default function Services() {
   const t = useTranslations('services');
   const locale = useLocale();
   const [activeTab, setActiveTab] = useState<TabKey>('web');
+
+  // Listen for tab-switch events dispatched by the Footer service links
+  useEffect(() => {
+    const handler = (e: CustomEvent) => {
+      const tab = e.detail as TabKey;
+      if (['web', 'sys', 'auto', 'infra'].includes(tab)) setActiveTab(tab);
+    };
+    window.addEventListener('nexora-services-tab', handler as EventListener);
+    return () => window.removeEventListener('nexora-services-tab', handler as EventListener);
+  }, []);
 
   const itemLinks: Partial<Record<TabKey, (string | null)[]>> = {
     sys: [`${CARE_BASE}?lang=${locale}`, null],
@@ -65,7 +75,7 @@ export default function Services() {
   return (
     <section
       id="services"
-      className="relative py-24 lg:py-32"
+      className="relative py-24 lg:py-32 scroll-mt-20"
       style={{ background: 'linear-gradient(180deg, #0a0b14 0%, #0f1120 50%, #0a0b14 100%)' }}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
