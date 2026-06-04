@@ -60,7 +60,7 @@ export default function Services() {
   }, []);
 
   const itemLinks: Partial<Record<TabKey, (string | null)[]>> = {
-    sys: [`${CARE_BASE}?lang=${locale}`, null],
+    sys: [`${CARE_BASE}/landing?lang=${locale}`, null],
   };
 
   const style = tabStyle[activeTab];
