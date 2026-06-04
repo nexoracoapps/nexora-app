@@ -19,7 +19,7 @@ export default function Process() {
   return (
     <section
       id="process"
-      className="relative py-24 lg:py-32"
+      className="relative py-24 lg:py-32 scroll-mt-20"
       style={{ background: 'linear-gradient(180deg, #0a0b14 0%, #0f1120 50%, #0a0b14 100%)' }}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

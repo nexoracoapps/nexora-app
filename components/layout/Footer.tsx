@@ -13,17 +13,16 @@ export default function Footer({ locale }: FooterProps) {
   const isRTL = locale === 'ar';
 
   const serviceLinks = [
-    { key: 'web', href: '#services' },
-    { key: 'systems', href: '#services' },
-    { key: 'automation', href: '#services' },
-    { key: 'infra', href: '#services' },
+    { key: 'web',        href: '#services', tab: 'web'   },
+    { key: 'systems',    href: '#services', tab: 'sys'   },
+    { key: 'automation', href: '#services', tab: 'auto'  },
+    { key: 'infra',      href: '#services', tab: 'infra' },
   ] as const;
 
   const companyLinks = [
     { key: 'about', href: '#about' },
     { key: 'process', href: '#process' },
-    { key: 'results', href: '#results' },
-  ] as const;
+] as const;
 
   return (
     <footer className="relative border-t border-white/6 bg-[#060810]">
@@ -68,10 +67,21 @@ export default function Footer({ locale }: FooterProps) {
               {t('services')}
             </h4>
             <ul className="space-y-3">
-              {serviceLinks.map(({ key, href }) => (
+              {serviceLinks.map(({ key, href, tab }) => (
                 <li key={key}>
                   <a
                     href={href}
+                    onClick={(e) => {
+                      e.preventDefault();
+                      // Fire event so Services component switches to the right tab
+                      window.dispatchEvent(new CustomEvent('nexora-services-tab', { detail: tab }));
+                      // Scroll to services section
+                      const el = document.getElementById('services');
+                      if (el) {
+                        const top = el.getBoundingClientRect().top + window.pageYOffset - 80;
+                        window.scrollTo({ top, behavior: 'smooth' });
+                      }
+                    }}
                     className="text-sm text-[#64748b] hover:text-[#3b82f6] transition-colors duration-150"
                   >
                     {t(`links.${key}`)}

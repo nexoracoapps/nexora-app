@@ -23,7 +23,7 @@ export default function WhyNexora() {
   return (
     <section
       id="why"
-      className="relative py-24 lg:py-32 overflow-hidden"
+      className="relative py-24 lg:py-32 overflow-hidden scroll-mt-20"
     >
       {/* Background accent */}
       <div className="absolute inset-0 pointer-events-none">

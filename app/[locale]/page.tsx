@@ -5,7 +5,6 @@ import About from '@/components/sections/About';
 import Services from '@/components/sections/Services';
 import WhyNexora from '@/components/sections/WhyNexora';
 import Process from '@/components/sections/Process';
-import Results from '@/components/sections/Results';
 import CTA from '@/components/sections/CTA';
 
 type Props = {
@@ -16,15 +15,14 @@ export default async function HomePage({ params }: Props) {
   const { locale } = await params;
 
   return (
-    <main className="overflow-hidden">
+    <main className="overflow-x-hidden">
       <Navbar locale={locale} />
       <Hero />
       <About />
       <Services />
 <WhyNexora />
       <Process />
-      <Results />
-      <CTA />
+<CTA />
       <Footer locale={locale} />
     </main>
   );

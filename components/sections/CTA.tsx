@@ -27,7 +27,7 @@ export default function CTA() {
   return (
     <section
       id="contact"
-      className="relative py-24 lg:py-32 overflow-hidden"
+      className="relative py-24 lg:py-32 overflow-hidden scroll-mt-20"
     >
       {/* Background */}
       <div

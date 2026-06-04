@@ -20,7 +20,7 @@ export default function About() {
   return (
     <section
       id="about"
-      className="relative py-20 lg:py-28 overflow-hidden"
+      className="relative py-20 lg:py-28 overflow-hidden scroll-mt-20"
       style={{ background: 'linear-gradient(180deg, #0a0b14 0%, #0f1120 60%, #0a0b14 100%)' }}
     >
       {/* Background glow */}
